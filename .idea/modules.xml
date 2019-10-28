@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/advancedSoftHomeWork.iml" filepath="$PROJECT_DIR$/advancedSoftHomeWork.iml" />
+      <module fileurl="file://$PROJECT_DIR$/socketPractice/socketPractice.iml" filepath="$PROJECT_DIR$/socketPractice/socketPractice.iml" />
+    </modules>
+  </component>
+</project>
