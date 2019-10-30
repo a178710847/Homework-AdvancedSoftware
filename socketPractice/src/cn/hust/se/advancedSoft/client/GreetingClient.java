@@ -130,6 +130,15 @@ public class GreetingClient extends JFrame {
         interRec_btn = new JButton("中断接受");
         interRec_btn.setFont(new Font(Font.DIALOG, Font.BOLD, 15));
         interRec_btn.setBounds(350, 200, 100, 30);
+        interRec_btn.addActionListener(event->{
+            if(socket!=null){
+                try {
+                    socket.shutdownInput();
+                } catch (IOException e) {
+                    e.printStackTrace();
+                }
+            }
+        });
         panel.add(interRec_btn);
 
         this.add(panel);
